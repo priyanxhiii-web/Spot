@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player:Music For Everyone</title>
+    <link rel="icon" href="https://p7.hiclipart.com/preview/158/639/798/spotify-streaming-media-logo-playlist-spotify-app-icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NavBar -->
+
+    <nav>
+        <div class="left-half">
+            <div class="logo"><i class="fa-brands fa-spotify"></i></div>
+            <div class="home-icon"><i class="fa-solid fa-house"></i></div>
+            <div class="search-bar">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" class="input-box" placeholder="What do you want to play?">
+                <div class="browse"><i class="fa-solid fa-folder-open"></i></div>
+            </div>
+        </div>
+        <div class="right-half">
+            <div class="right-half-p1">
+                <p class="nav-text">Premium</p>
+                <p class="nav-text">Support</p>
+                <p class="nav-text">Download</p>
+            </div>
+            <div class="right-half-p2">
+                <div class="nav-text"><i class="fa-regular fa-circle-down"></i> Install App</div>
+                <div class="nav-text">Sign up</div>
+                <button class="login-btn">Log in</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main-left part -->
+    <div class="main">
+        <div class="main-left-part">
+            <div class="library">
+                <p>Your Library</p>
+                <div>+</div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <h4>Create your first playlist</h4>
+                    <p>It's easy we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="box">
+                    <div class="box">
+                        <h4>Let's find some podcast to follow</h4>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button>Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main: right part -->
+
+        <div class="main-right-part">
+            <div class="music-section">
+                <h2>Trending songs</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/01.png" alt="">
+                        <div class="music-play-btn"><i id="1" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">5-7</div>
+                        <div class="img-description">Karan Aujla, Mxrci</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/02.png" alt="">
+                        <div class="music-play-btn"><i id="2" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Aaja Raja(From "KH x RK Reunion")</div>
+                        <div class="img-description">Anirudh Ravichandar, Chintu</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/03.png" alt="">
+                        <div class="music-play-btn"><i id="3" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Bairi</div>
+                        <div class="img-description">Virat, Pardeep Solanki, Heena</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/04.png" alt="">
+                        <div class="music-play-btn"><i id="4" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Khat</div>
+                        <div class="img-description">Navjot Ahuja</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/05.png" alt="">
+                        <div class="music-play-btn"><i id="5" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Iss Tarah</div>
+                        <div class="img-description">Chaar Diwaari, Sonu Nigam</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/06.png" alt="">
+                        <div class="music-play-btn"><i id="6" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Mutta Kalakki(From "Youth")</div>
+                        <div class="img-description">G.V.Prakash, Ken Karunaas</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/07.png" alt="">
+                        <div class="music-play-btn"><i id="7" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">DOPAMINE</div>
+                        <div class="img-description">Guru Randhawa, Gurjit Gill, Lavish Dhiman</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/08.png" alt="">
+                        <div class="music-play-btn"><i id="8" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Bairan</div>
+                        <div class="img-description">Banjaare</div>
+                    </div>
+                </div>
+            </div>
+            <div class="music-section">
+                <h2>Recomended Songs</h2>
+                    <div class="songs">
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/04.png" alt="">
+                            <div class="music-play-btn"><i id="4" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Khat</div>
+                            <div class="img-description">Navjot Ahuja</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/03.png" alt="">
+                            <div class="music-play-btn"><i id="3" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Bairi</div>
+                            <div class="img-description">Virat, Pardeep Solanki, Heena</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/01.png" alt="">
+                            <div class="music-play-btn"><i id="1" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">5-7</div>
+                            <div class="img-description">Karan Aujla, Mxrci</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/02.png" alt="">
+                            <div class="music-play-btn"><i id="2" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Aaja Raja(From "KH x RK Reunion")</div>
+                            <div class="img-description">Anirudh Ravichandar, Chintu</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/08.png" alt="">
+                            <div class="music-play-btn"><i id="8" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Bairan</div>
+                            <div class="img-description">Banjaare</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/05.png" alt="">
+                            <div class="music-play-btn"><i id="5" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Iss Tarah</div>
+                            <div class="img-description">Chaar Diwaari, Sonu Nigam</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/06.png" alt="">
+                            <div class="music-play-btn"><i id="6" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">Mutta Kalakki(From "Youth")</div>
+                            <div class="img-description">G.V.Prakash, Ken Karunaas</div>
+                        </div>
+                        <div class="music-card">
+                            <img src="Images/Trending Songs/07.png" alt="">
+                            <div class="music-play-btn"><i id="7" class="playMusic fa-solid fa-circle-play"></i></div>
+                            <div class="img-title">DOPAMINE</div>
+                            <div class="img-description">Guru Randhawa, Gurjit Gill, Lavish Dhiman</div>
+                        </div>
+                    </div>
+            </div>
+            <div class="music-section">
+                <h2>Trending songs</h2>
+                <div class="songs">
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/02.png" alt="">
+                        <div class="music-play-btn"><i id="2" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Aaja Raja(From "KH x RK Reunion")</div>
+                        <div class="img-description">Anirudh Ravichandar, Chintu</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/07.png" alt="">
+                        <div class="music-play-btn"><i id="7" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">DOPAMINE</div>
+                        <div class="img-description">Guru Randhawa, Gurjit Gill, Lavish Dhiman</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/01.png" alt="">
+                        <div class="music-play-btn"><i id="1" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">5-7</div>
+                        <div class="img-description">Karan Aujla, Mxrci</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/03.png" alt="">
+                        <div class="music-play-btn"><i id="3" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Bairi</div>
+                        <div class="img-description">Virat, Pardeep Solanki, Heena</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/04.png" alt="">
+                        <div class="music-play-btn"><i id="4" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Khat</div>
+                        <div class="img-description">Navjot Ahuja</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/08.png" alt="">
+                        <div class="music-play-btn"><i id="8" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Bairan</div>
+                        <div class="img-description">Banjaare</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/05.png" alt="">
+                        <div class="music-play-btn"><i id="5" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Iss Tarah</div>
+                        <div class="img-description">Chaar Diwaari, Sonu Nigam</div>
+                    </div>
+                    <div class="music-card">
+                        <img src="Images/Trending Songs/06.png" alt="">
+                        <div class="music-play-btn"><i id="6" class="playMusic fa-solid fa-circle-play"></i></div>
+                        <div class="img-title">Mutta Kalakki(From "Youth")</div>
+                        <div class="img-description">G.V.Prakash, Ken Karunaas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- player -->
+    <div class="player-bar">
+        <div class="now-bar">
+            <img src="Images/Trending Songs/01.png" alt="">
+            <div>
+                <div class="img-title-info">5-7</div>
+                <div class="img-des-info">Karan Aujla, Mxrci</div>
+            </div>
+        </div>
+        <div class="music-controller">
+            <div class="player">
+                <div><i id="shuffle" class="player-btns fa-solid fa-shuffle"></i></div>
+                <div><i id="backward" class="player-btns fa-solid fa-backward-step"></i></div>
+                <div><i id="play" class="player-btns fa-solid fa-circle-play"></i></div>
+                <div><i id="forward" class="player-btns fa-solid fa-forward-step"></i></div>
+                <div><i id="repeat" class="player-btns fa-solid fa-repeat"></i></div>
+            </div>
+
+            <div>
+                <input type="range" id="progressBar" value="0">
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

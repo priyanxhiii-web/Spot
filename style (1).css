@@ -1,0 +1,83 @@
+.page{
+    border: 2px solid black;
+    margin: 0%;
+    width: 811.8px;
+    /* height: 1000px; */
+    background-color: #ebe6e6;
+}
+header{
+    width: 810px;
+    height: 40x;
+    background-color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+    border: 0.1px solid blue;
+}
+header span{
+    align-items: center;
+    justify-content: center;
+    margin-left: 31%;
+    margin-top: 10px;
+}
+.container1{
+    margin: 16px;
+    background-color: white;
+    width: 778px;
+    height: 370px;
+}
+.container1 img{
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.container1 > .head{
+    margin-left: 16px;
+    margin-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.container1 > p{
+    margin-left: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c5858;
+    font-size: 14px;
+    width: 720px;
+}
+.container2{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: white;
+    width: 778px;
+    height: 200px;
+    border: 1px solid white;
+
+}
+.container2 > .head{
+    margin-left:16px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+ol{
+    list-style: circle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6c5858;
+}
+footer{
+    color: white;
+    background-color: rgb(29, 145, 191);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 810px;
+    border: 0.1px solid rgb(29, 145, 191);
+}
+footer > div{
+    margin-left: 31%;
+    margin-top: 12px;
+}
